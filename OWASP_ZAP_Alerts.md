@@ -4,9 +4,12 @@
 **Tool Used:** [OWASP ZAP](https://www.zaproxy.org/)  
 
 ---
-## HIDDEN PAGE 
-Below is the screenshot of the HIDDEN PAGE in the Website.
-![HIDDEN PAGE ](screenshots/HIDDEN_PAGE.png)
+![OWASP ZAP Alerts](screenshots/OWASP_ZAP_ANALYSIS.png)
+## OWASP ZAP Alerts
+This screenshot shows the OWASP ZAP alerts:
+
+![OWASP ZAP Alerts](screenshots/ZAP_ALERTS.png)
+
 
 ## 🔹 Identified Vulnerabilities  
 
