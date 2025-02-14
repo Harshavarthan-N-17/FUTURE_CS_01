@@ -1,3 +1,9 @@
+# Nmap Scan Report
+# Date: [2025-02-11 11:45:39 GMT]  
+# Scan Command: nmap -sV -p- localhost
+# Target: localhost (127.0.0.1)
+# Disclaimer: This scan was performed in a controlled environment for educational purposes only.
+
 Nmap scan report for localhost (127.0.0.1)
 Host is up (0.0000060s latency).
 Not shown: 65532 closed ports
@@ -5,7 +11,6 @@ Not shown: 65532 closed ports
 PORT      STATE SERVICE     VERSION
 80/tcp    open  http        Apache httpd 2.4.52 ((Ubuntu))
 3306/tcp  open  nagios-nsca Nagios NSCA
-33060/tcp open  mysqlx?
 
 Nmap done: 1 IP address (1 host up) scanned in 14.26 seconds
 

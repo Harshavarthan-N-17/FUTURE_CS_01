@@ -7,12 +7,17 @@ This repository contains the **Vulnerability Assessment Report** for the sample 
 - **OWASP ZAP** – For web vulnerability scanning.
 - **Burp Suite** – For manual penetration testing.
 
-## 📄 Files & Structure
-- **Reports/** → Contains the detailed vulnerability assessment report.
-- **Scans/** → Includes scan outputs such as `Nmap` and `ZAP` logs.
-- **Screenshots/** → Screenshots of findings.
-- **Scripts/** → Any custom scripts used.
-- **Notes/** → Additional references or research.
+## Files & Structure
+
+- **01_LICENSE** → The license information for this project.
+- **02_README.md** → This file, providing an overview of the repository.
+- **03_Nmap_Scan_Results.txt** → Contains the Nmap scan output.
+- **04_OWASP_ZAP_Alerts.md** → Details the security alerts found using OWASP ZAP.
+- **05_Vulnerability_Assessment_Report.md** → The complete vulnerability assessment report.
+- **06_Penetration_Testing_Notes.md** → Notes on penetration testing, including hidden pages and findings.
+- **07_Recommendations.md** → Security recommendations to mitigate identified vulnerabilities.
+- **screenshots/** → Folder containing relevant screenshots of scan results and findings.
+
 
 ## 📋 Findings Overview
 - **Number of Vulnerabilities Found**: 11
@@ -22,7 +27,7 @@ This repository contains the **Vulnerability Assessment Report** for the sample 
   - 🔵 **Low**: 2 vulnerabilities
 
 ## 📢 Recommendations
-Refer to the **Vulnerability_Assessment_Report.md** for mitigation strategies.
+Refer to the **07_Recommendations.md** for mitigation strategies.
 
 ## 🔗 References
 - [DVWA GitHub](https://github.com/digininja/DVWA)

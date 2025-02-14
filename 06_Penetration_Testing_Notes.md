@@ -18,7 +18,7 @@
 - **Server Version:** Apache/2.4.52 (Ubuntu)  
 - **MPM Type:** prefork  
 - **Server Built Date:** 2024-03-18  
-- **Current Server Time:** 13-Feb-2025 21:50:39 IST  
+- **Current Server Time:**  [2025-02-11 11:45:39 GMT]  
 - **Uptime:** 33 minutes 56 seconds  
 
 ## HIDDEN PAGE 
@@ -70,6 +70,8 @@ Below is the screenshot of the HIDDEN PAGE in the Website.
 
 ## 🛠️ **Recommended Fixes**  
 
+## 🛠️ **Recommended Fixes**  
+
 ### ✅ **1. Restrict Access to Server-Status Page**  
 Modify the **Apache configuration file (`/etc/apache2/sites-available/000-default.conf`)** to limit access:  
 
@@ -78,24 +80,30 @@ Modify the **Apache configuration file (`/etc/apache2/sites-available/000-defaul
     SetHandler server-status
     Require ip 127.0.0.1
 </Location>
+```
 
 🔹 Only localhost will be able to access the page.
 
+---
 
-### ✅ **2. Disable TRACK & TRACE Methods**
-Edit the Apache configuration file (/etc/apache2/apache2.conf) and add:
+### ✅ **2. Disable TRACK & TRACE Methods**  
+Edit the Apache configuration file (`/etc/apache2/apache2.conf`) and add:
 
 ```apache
-       
-       TraceEnable off
+TraceEnable off
+```
+
 🔹 Prevents potential XST (Cross-Site Tracing) attacks.
 
-### ✅ **3. Hide Apache Version & Server Details** 
-Edit security.conf (/etc/apache2/conf-available/security.conf) and update:
+---
+
+### ✅ **3. Hide Apache Version & Server Details**  
+Edit security.conf (`/etc/apache2/conf-available/security.conf`) and update:
 
 ```apache
 ServerTokens Prod
 ServerSignature Off
+```
 
 🔹 Prevents version disclosure in error pages and HTTP responses.
----
+
