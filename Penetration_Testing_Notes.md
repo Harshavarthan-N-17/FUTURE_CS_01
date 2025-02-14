@@ -21,6 +21,10 @@
 - **Current Server Time:** 13-Feb-2025 21:50:39 IST  
 - **Uptime:** 33 minutes 56 seconds  
 
+## HIDDEN PAGE 
+Below is the screenshot of the HIDDEN PAGE in the Website.
+![HIDDEN PAGE ](screenshots/HIDDEN_PAGE.png)
+
 ### **2️⃣ Performance Metrics & Resource Utilization**  
 | Metric          | Value |
 |----------------|-------|

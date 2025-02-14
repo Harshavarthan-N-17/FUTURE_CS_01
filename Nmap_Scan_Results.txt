@@ -10,4 +10,3 @@ PORT      STATE SERVICE     VERSION
 Nmap done: 1 IP address (1 host up) scanned in 14.26 seconds
 
 
-<img src="screenshots/HIDDEN_PAGE.png" alt="HIDDEN PAGE screenshot" width="500">
